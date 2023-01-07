@@ -35,6 +35,13 @@ function readLine() {
 // Use readLine() for taking input, it will read one line of from the input  and is stored in string format
 
 let n = parseInt(readLine());
-//The index value is 4 in the given series the answer is 10 
-let output = parseInt(n * (n +1)/2);
+//The index value is 4 in the given series the answer is 10
+//0 + 1 = 1
+//1 + 2 = 3
+//3 + 3 = 6
+//6 + 4 = 10
+//10 + 5 = 15
+//15 + 6 = 21
+//21 + 7 = 28
+let output = parseInt(n * (n + 1) / 2); //4*5/2 = 20/2 = 10
 console.log(output);

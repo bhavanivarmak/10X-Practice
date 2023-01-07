@@ -12,7 +12,6 @@ function readLine() {
 
 // name your function as rightToLeftDiagonal
 function matrix_diagonal(arr, n) {
-    let elem = 0;
     for (let i = 0; i < n; i++) {
         for (let j = 0; j < n; j++) {
             if (i == n - j - 1) {
